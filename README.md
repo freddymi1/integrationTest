@@ -22,6 +22,5 @@ Apres l'installation, lancer le commande :
 
 Et aller sur le navigateur en copiant ce URL.\
 Open [http://localhost:3000](http://localhost:3000) .
-```
-Autheur : Freddy Michel
-```
+
+Autheur : **Freddy Michel**
