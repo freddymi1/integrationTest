@@ -7,7 +7,7 @@ import { HashLink } from 'react-router-hash-link'
 
 export default function Homepage(props) {
     return (
-        <div className="home__container ">
+        <div className="home__container " id="home">
             <div className=" _grid">
                 <div className="home__content _grid">
                     <div className="home__img">
@@ -16,10 +16,11 @@ export default function Homepage(props) {
 
                     <div className="home__data">
                         <h3 className="home__subtitle">{props.data.title}</h3>
-                        <h1 className="home__title">{props.data.title1}<br/>{props.data.title11}</h1>
-                        <HashLink to="#contact" className="button button--flex">
+                        <h1 className="home__title">{props.data.title1}</h1>
+                        <h1 className="home__title">{props.data.title11}</h1>
+                        <button className="button button--flex">
                         {props.data.textBtn}
-                        </HashLink>
+                        </button>
                     </div>
                 </div>
                 <div className="home__scroll">

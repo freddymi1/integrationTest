@@ -58,6 +58,11 @@
   }
 }
 
+.section7{
+  background: rgba(235, 235, 235, 0.5);
+}
+
+
 
 .nav__btns{
   display: flex;
@@ -1157,6 +1162,7 @@ img{
   }
   .button{
     font-size: .9rem;
+    border: none;
   }
   .home{
     align-items: center;

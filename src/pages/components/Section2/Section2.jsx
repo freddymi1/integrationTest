@@ -33,7 +33,7 @@ export default function Section2(props) {
                             <h1 className="card__icon-contenu">1</h1>
                         </div>
                         <div className="cart__content">
-                            <h2 className="card__title">{props.data.cardTitl1}</h2>
+                            <h2 className="card__title">{props.data.cardTitle1}</h2>
                             <p className="descr__card">
                             {props.data.text}
                             </p>
@@ -47,7 +47,7 @@ export default function Section2(props) {
                             <h1 className="card__icon-contenu1">2</h1>
                         </div>
                         <div className="cart__content">
-                            <h2 className="card__title">{props.data.cardTitl2}</h2>
+                            <h2 className="card__title">{props.data.cardTitle2}</h2>
                             <p className="descr__card">
                                 {props.data.text}
                             </p>
@@ -61,7 +61,7 @@ export default function Section2(props) {
                             <h1 className="card__icon-contenu2">3</h1>
                         </div>
                         <div className="cart__content">
-                            <h2 className="card__title">{props.data.cardTitl3}</h2>
+                            <h2 className="card__title">{props.data.cardTitle3}</h2>
                             <p className="descr__card">
                                 {props.data.text}
                             </p>
