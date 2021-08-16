@@ -1,3 +1,5 @@
+# Projet ReactJS avec Firebase
+
 # Lancement du projet
 
 Pour lancer le projet, clone le repositorie **https://github.com/freddymi1/integrationTest.git**.
@@ -20,4 +22,6 @@ Apres l'installation, lancer le commande :
 
 Et aller sur le navigateur en copiant ce URL.\
 Open [http://localhost:3000](http://localhost:3000) .
-
+```
+Autheur : Freddy Michel
+```
