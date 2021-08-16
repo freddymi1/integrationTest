@@ -31,6 +31,6 @@ Pour lancer le mode test, lance le commande
 yarn test
 ```
 
-Apres, une fenetre qui contient les liens pour le test s'ouvre
+Apres, une fenetre qui contient les liens pour le test s'ouvre et clicker sur le composant que vous voulez tester
 
 Autheur : **Freddy Michel**
