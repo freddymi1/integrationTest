@@ -1,6 +1,6 @@
 # Projet ReactJS avec Firebase
 
-# Lancement du projet
+## Lancement du projet
 
 Pour lancer le projet, clone le repositorie **https://github.com/freddymi1/integrationTest.git**.
 
