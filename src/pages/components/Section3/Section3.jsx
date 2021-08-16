@@ -1,16 +1,17 @@
 import React from 'react'
 
-export default function Section3() {
-
-    
-        
+export default function Section3(props) {
 
     return (
         <div className="container" style={{height:"auto"}}>
             <div className="section3">
                 <div className="block__quote">
                     <img src="img/quote.png" alt="" />
-                    <p className="quote__text">I need to understand what’s going on – it’s my health and I want to feel secure in it. With my previous health insurance, I didn’t know how any of it worked</p>
+                    <p className="quote__text">{props.data.textQuote}</p>
+                    <div>
+                        <h4 className="titleSec3">{props.data.nameOth}</h4>
+                        <p className="textSec3">L{props.data.legende}</p>
+                    </div>
                 </div>
 
                 <div className="bg">

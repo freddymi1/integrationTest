@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Section4() {
+export default function Section4(props) {
     return (
         <div className="_container _grid">
             <div className="section__4">
@@ -10,13 +10,13 @@ export default function Section4() {
                 <div className="section4__content">
                     <div>
                         <h2 className="sect__title">
-                            100% statisfaction guarantee
+                            {props.data.title}
                         </h2>
                         <p className="sect-desc">
-                        We offer no questions asked refund policy for 14 days from the policy date.
+                            {props.data.text}
                         </p>
                     </div>
-                    <button className="button__sec4">Get your free Quote</button>
+                    <button className="button__sec4">{props.data.textBtn}</button>
                    
                 </div>
                 

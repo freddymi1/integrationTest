@@ -1,17 +1,19 @@
+/* eslint-disable array-callback-return */
 import React from 'react'
 
-export default function Section1() {
+export default function Section1(props) {
     return (
         <div className="_container">
             <div className="section__1">
+                
                 <div className="card">
                     <div className="icon__card">
                         <img src="img/home insurance-1.png" alt="" />
                     </div>
                     <div className="cart__content">
-                        <h2 className="card__title">Home Insurance</h2>
+                        <h2 className="card__title">{props.data.title1}</h2>
                         <p className="descr__card">
-                        Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+                            {props.data.text}
                         </p>
                     </div>
                 </div>
@@ -20,9 +22,9 @@ export default function Section1() {
                         <img src="img/car-insurance-1.png" alt="" />
                     </div>
                     <div className="cart__content">
-                        <h2 className="card__title">Car Insurance</h2>
+                        <h2 className="card__title">{props.data.title2}</h2>
                         <p className="descr__card">
-                        Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+                            {props.data.text}
                         </p>
                     </div>
                 </div>
@@ -31,9 +33,9 @@ export default function Section1() {
                         <img src="img/life-insurance-1.png" alt="" />
                     </div>
                     <div className="cart__content">
-                        <h2 className="card__title">Life Insurance</h2>
+                        <h2 className="card__title">{props.data.title3}</h2>
                         <p className="descr__card">
-                        Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+                            {props.data.text}
                         </p>
                     </div>
                 </div>
@@ -42,9 +44,9 @@ export default function Section1() {
                         <img src="img/business-insurance-1.png" alt="" />
                     </div>
                     <div className="cart__content">
-                        <h2 className="card__title">Business Insurance</h2>
+                        <h2 className="card__title">{props.data.title4}</h2>
                         <p className="descr__card">
-                        Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+                            {props.data.text}
                         </p>
                     </div>
                 </div>
@@ -53,9 +55,9 @@ export default function Section1() {
                         <img src="img/travel-insurance-1.png" alt="" />
                     </div>
                     <div className="cart__content">
-                        <h2 className="card__title">Travel Insurance</h2>
+                        <h2 className="card__title">{props.data.title5}</h2>
                         <p className="descr__card">
-                        Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+                            {props.data.text}
                         </p>
                     </div>
                 </div>
@@ -64,9 +66,9 @@ export default function Section1() {
                         <img src="img/other-insurance-1.png" alt="" />
                     </div>
                     <div className="cart__content">
-                        <h2 className="card__title">Other Insurance</h2>
+                        <h2 className="card__title">{props.data.title6}</h2>
                         <p className="descr__card">
-                        Insurance can have various effects on society through the way that it changes who bears the cost of losses and damage.
+                            {props.data.text}
                         </p>
                     </div>
                 </div>

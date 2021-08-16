@@ -4,7 +4,7 @@ import {FaRegUser} from 'react-icons/fa';
 import {AiOutlineHome, AiOutlineCloseCircle, AiOutlineAppstore} from 'react-icons/ai';
 import { useState } from "react";
 
-export default function NavBar() {
+export default function NavBar(props) {
     const [isOpen, setIsOpen] = useState(false)
     
     const navMenu = document.getElementById('nav-menu');
@@ -47,17 +47,17 @@ export default function NavBar() {
     return(
         <header className="header" id="header">
             <nav className="_nav _container">
-                <HashLink to="#" className="nav__logo">FinCorp</HashLink>
+                <HashLink to="#" className="nav__logo">{props.header.logo}</HashLink>
                 <div className="nav__menu" id="nav-menu">
                     <ul className="nav__list _grid">
                         <li className="nav__item">
                             <HashLink to="#home" className="nav__link">
-                                <AiOutlineHome className="nav__icon"/> For your familly
+                                <AiOutlineHome className="nav__icon"/> {props.header.title1}
                             </HashLink>
                         </li>
                         <li className="nav__item">
                             <HashLink to="#section1" className="nav__link">
-                                <FaRegUser className="nav__icon"/> For business
+                                <FaRegUser className="nav__icon"/> {props.header.title2}
                             </HashLink>
                         </li> 
                            

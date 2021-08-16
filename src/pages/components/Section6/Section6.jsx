@@ -4,7 +4,7 @@ import Comp2 from '../Section6/components/Comp2'
 import Comp3 from '../Section6/components/Comp3'
 import Comp4 from '../Section6/components/Comp4'
 
-export default function Section6() {
+export default function Section6(props) {
     return (
         <div className="_container ">
             <div className="imgBg1">
@@ -13,16 +13,16 @@ export default function Section6() {
             <div className="sec6__content">
                 <div>
                     {/* Skills 1 */}
-                        <Comp1/>
+                        <Comp1 data={props.data}/>
                     {/* Skills 2 */}
-                        <Comp2/>
+                        <Comp2 data={props.data}/>
 
                 </div>
                 <div>
                     {/* Skills 3 */}
-                        <Comp3/>
+                        <Comp3 data={props.data}/>
                     {/* Skills 4 */}
-                        <Comp4/>
+                        <Comp4 data={props.data}/>
                 </div>
             </div>
             <div className="section__6">
@@ -32,13 +32,13 @@ export default function Section6() {
                 <div className="section6__content">
                     <div>
                         <h2 className="sect__title">
-                            Insurance made easy.
+                            {props.data.titleBotom}
                         </h2>
                         <p className="sect-desc">
-                        We offer no questions asked refund policy for 14 days from the policy date.
+                            {props.data.textBottom}
                         </p>
                     </div>
-                    <button className="button__sec4">Get your free Quote</button>
+                    <button className="button__sec4">{props.data.textBtn}</button>
                    
                 </div>
                 

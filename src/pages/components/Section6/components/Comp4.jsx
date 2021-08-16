@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 import { MdKeyboardArrowRight} from 'react-icons/md'
 
-export default function Comp4() {
+export default function Comp4(props) {
     const [active, setActive] = useState("")
     const [height, setHeight] = useState("0px")
     const [rotate, setRotate] = useState("accordion_icon")
@@ -17,14 +17,14 @@ export default function Comp4() {
             <div className="skills_content">
                 <div className="skills__header"  onClick={toggleAccordion}>
                     <div>
-                        <h1 className="skills__title">Is maternity covered in health insurance policies?</h1>
+                        <h1 className="skills__title">{props.data.titleD}</h1>
                         {/* <span className="skills__subtitle">Environ 10 mois</span> */}
                     </div>
                     <MdKeyboardArrowRight className={`skills__arrow ${rotate}`}/>
                 </div>
                 <div ref={content} style={{maxHeight:`${height}`}} className="skills__list _grid accordion_content">
                     <p className="textComp">
-                        A pre-authorization form is required in case of cashless claims which are to be submitted to the TPA. Other documents might also be required and you should have the knowledge of the required documents.
+                    {props.data.text}
                     </p>
                     
                 </div>
