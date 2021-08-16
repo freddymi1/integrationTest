@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // Verifier si les Logo et les titre navlink sur le nav sont present
 describe("Nav", ()=>{
     it("Nav ok", ()=>{

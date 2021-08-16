@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // Verification des donnee sur la section 1
 describe("Verification de section 1", ()=>{
     it("renders correctly", ()=>{

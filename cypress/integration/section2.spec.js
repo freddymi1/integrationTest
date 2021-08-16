@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+// Verification de section 2
 describe("Verification de section2", ()=> {
     it("Ok", ()=>{
         cy.visit("/#section2")

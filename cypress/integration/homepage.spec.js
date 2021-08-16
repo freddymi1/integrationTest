@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // Verifier si les donnee sur le Homepage sont tous la
 describe("home__data", ()=>{
     it("renders correctly", ()=>{
