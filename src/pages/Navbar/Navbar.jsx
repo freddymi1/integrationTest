@@ -59,6 +59,31 @@ export default function NavBar(props) {
                             <HashLink to="#section1" className="nav__link">
                                 <FaRegUser className="nav__icon"/> {props.header.title2}
                             </HashLink>
+                        </li>
+                        <li className="nav__item">
+                            <HashLink to="#section2" className="nav__link">
+                                <FaRegUser className="nav__icon"/> 
+                            </HashLink>
+                        </li> 
+                        <li className="nav__item">
+                            <HashLink to="#section3" className="nav__link">
+                                <FaRegUser className="nav__icon"/> 
+                            </HashLink>
+                        </li> 
+                        <li className="nav__item">
+                            <HashLink to="#section4" className="nav__link">
+                                <FaRegUser className="nav__icon"/> 
+                            </HashLink>
+                        </li> 
+                        <li className="nav__item">
+                            <HashLink to="#section5" className="nav__link">
+                                <FaRegUser className="nav__icon"/>
+                            </HashLink>
+                        </li> 
+                        <li className="nav__item">
+                            <HashLink to="#section6" className="nav__link">
+                                <FaRegUser className="nav__icon"/>
+                            </HashLink>
                         </li> 
                            
                     </ul>
