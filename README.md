@@ -23,9 +23,14 @@ Apres l'installation, lancer le commande :
 Et aller sur le navigateur en copiant ce URL.\
 Open [http://localhost:3000](http://localhost:3000) .
 
+
+Les dossier du test se trouve dans le dossier **cypress > integration**
+
 Pour lancer le mode test, lance le commande 
 ```bash
 yarn test
 ```
+
+Apres, une fenetre qui contient les liens pour le test s'ouvre
 
 Autheur : **Freddy Michel**
